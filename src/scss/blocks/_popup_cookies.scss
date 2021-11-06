@@ -1,0 +1,34 @@
+.vasylkov-popup {
+    background-color: #194277;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    .pop-up-cookies {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 72px;
+
+        &__text-holder {
+            color: white;
+        }
+
+        &__button-holder {
+            margin: 0 46px;
+
+            button {
+                color: #194277;
+                font-size: 12px;
+                font-weight: 900;
+                height: 30px;
+                width: 112px;
+                border-radius: 15px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

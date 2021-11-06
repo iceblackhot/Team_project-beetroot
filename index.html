@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/fonts/icon/icon.css">
     <link rel="stylesheet" href="src/css/normalize.css" />
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="src/js/main.js"></script>
+    <script src="src/js/cookies.js"></script>
+    <script src="src/js/hire-me-welcome.js"></script>
     <title>Our_project</title>
   </head>
   <body>
-    <header
-      class="hire-me"
-      style="background-image: url(src/img/background.png)">
-      <div class="container">
-        
-      </div>
-    </header>
     <main>
-      <section class="your-name">
+      <section class="vasylkov-welcome">
         <div class="container">
-          <div class="popup-cookies">
-
+          <div class="welcome">
+            <div class="welcome__ball"></div>
+            <div class="welcome__title-holder">
+              <h1>free portfolio PSD template
+                FOR GRAPHIC designerS</h1>
+            </div>
+            <div class="welcome__text-holder">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+            </div>
+            <div class="welcome__btn-holder">
+              <button class="welcome__btn-holder_btn">Hire me</button>
+            </div>
+            <div class="welcome__scroll-holder"><a class="welcome__scroll-holder" href="#about-us"><i class="icon-arrow"></i></a></div>
           </div>
         </div>
       </section>
@@ -37,10 +45,56 @@
           </div>
         </div>
       </section>
-      <section class="your-name">
+      <section class="vasylkov-expert" id="expert">
         <div class="container">
           <div class="expert-in">
-
+              <div class="expert-in__title-holder">
+                <h2>Expert In</h2>
+              </div>
+              <ul class="expert-in__list">
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-mobile"></i></div>
+                    <div class="expert-in__block-title"><h3>MOBILE APP DESIGN</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim </p></div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-design"></i></div>
+                    <div class="expert-in__block-title"><h3>WEB DESIGN</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p></div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-development"></i></div>
+                    <div class="expert-in__block-title"><h3>WEB DEVELOPMENT</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim </p></div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-product"></i></div>
+                    <div class="expert-in__block-title"><h3>PRODUCT DESIGN</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim </p></div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-uxui"></i></div>
+                    <div class="expert-in__block-title"><h3>UX & UI</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p></div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder"><i class="icon-animation"></i></div>
+                    <div class="expert-in__block-title"><h3>ANIMATIONS</h3></div>
+                    <div class="expert-in__text-holder"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim</p></div>
+                  </a>
+                </li>
+              </ul>
           </div>
         </div>
       </section>
@@ -73,5 +127,29 @@
         </div>
       </section>
     </main>
+    <section class="vasylkov-popup">
+      <div class="pop-up-cookies">
+        <div class="pop-up-cookies__text-holder"><p>This site uses cookies, so that my service can work better.</p></div>
+        <div class="pop-up-cookies__button-holder"><button class="pop-up-cookies__btn">Accept</button></div>
+      </div>
+    </section>
+    <section>
+      <div class="hireme">
+        <div class="hireme__close">
+          <span></span>
+        </div>
+        <div class="hireme__title">
+          <h2>Hire Me</h2>
+        </div>
+        <div class="hireme__input">
+          <input class="name" type="text" placeholder="Your Name">
+          <input class="email" type="text" placeholder="Your E-Mail">
+          <textarea cols="30" rows="10" placeholder="Your Message" ></textarea>
+          <button class="hirme_btn">
+            SEND MESSAGE
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

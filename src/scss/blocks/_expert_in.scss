@@ -1,0 +1,88 @@
+.vasylkov-expert {
+    background-color: #F1F8FF;
+    text-align: center;
+}
+
+.expert-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title-holder {
+        font-size: $titleh2;
+        color: $blue;
+        padding-bottom: 114px;
+        padding-top: 99px;
+
+        h2 {
+            font-weight: 300;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 82px;
+        min-width: calc(100% / 3);
+    }
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: max-content;
+        max-height: max-content;
+
+        &:hover .expert-in__block-title,
+        &:hover .expert-in__icon-holder {
+            color: #C97000;
+        }
+
+        &:hover .expert-in__text-holder {
+            color: black;
+        }
+    }
+
+    &__icon-holder {
+        color: $blue;
+        font-size: 66px;
+        height: 139px;
+        width: 139px;
+        border: 1px solid $lightgrey;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all ease-in-out 0.3s;
+        
+    }
+
+    &__block-title {
+        font-size: $titleh3;
+        color: $blue;
+        padding-top: 63px;
+        transition: all ease-in-out 0.3s;
+    }
+
+    &__text-holder {
+        color: $lightgrey;
+        max-width: 378px;
+        text-align: center;
+        padding: 33px 5px 0;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .icon-animation {
+        position: relative;
+        left: 5px;
+        bottom: 2px;
+    }
+}
