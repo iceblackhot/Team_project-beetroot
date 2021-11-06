@@ -31,6 +31,10 @@
         h1 {
             font-weight: 900;
         }
+
+        @include media('<=520px') {
+            font-size: 25px;
+        }
     }
 
     &__text-holder {
