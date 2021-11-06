@@ -1,5 +1,4 @@
 .footer{
-   // background-color: $blue;
    background-image: linear-gradient(45deg, rgba(54,149,255,1) 20%, rgba(70,157,255,1) 20%, rgba(70,157,255,1) 40%, rgba(64,153,255,1) 40%, rgba(64,153,255,1) 60%, rgba(60,143,254,1) 60%, rgba(60,143,254,1) 80%, rgba(54,124,253,1) 80%);
    height: 250px;
    display: flex;
@@ -60,7 +59,7 @@
    align-items: center;
    justify-content: center;
    max-width: 820px;
-   background-color: gray;
+   // background-color: gray;
    margin: 0 auto;
    border-radius: 10px;
    position: relative;
@@ -114,16 +113,20 @@
    &__input{
       display: flex;
       flex-direction: column;
+      max-width: 517px;
+      width: 100%;
+      padding: 0 10px;
       
       
       input{
          margin-bottom: 10px;
-         width: 517px;
+        
          height: 45px;
          border-radius: 10px;
          background-color: #ffffff;
          border: 1px solid #b7c0c9;
          padding-left: 10px;
+         
       }
       
    }
