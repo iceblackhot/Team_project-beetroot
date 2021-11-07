@@ -1,0 +1,41 @@
+.vasylkov-popup {
+  background-color: #194277;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+
+  .pop-up-cookies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 72px;
+    text-align: center;
+
+    &__text-holder {
+      color: white;
+      padding: 15px;
+    }
+
+    &__button-holder {
+      padding: 7px 15px 15px;
+
+      .pop-up-cookies__btn {
+        color: #194277;
+        font-size: 12px;
+        font-weight: 900;
+        height: 30px;
+        width: 112px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: all ease-in-out 0.4s;
+      }
+
+      .pop-up-cookies__btn:hover {
+        background-color: $lightgrey;
+      }
+    }
+  }
+}

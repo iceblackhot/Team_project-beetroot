@@ -1,0 +1,175 @@
+.footer {
+  background-image: linear-gradient(
+    45deg,
+    rgba(54, 149, 255, 1) 20%,
+    rgba(70, 157, 255, 1) 20%,
+    rgba(70, 157, 255, 1) 40%,
+    rgba(64, 153, 255, 1) 40%,
+    rgba(64, 153, 255, 1) 60%,
+    rgba(60, 143, 254, 1) 60%,
+    rgba(60, 143, 254, 1) 80%,
+    rgba(54, 124, 253, 1) 80%
+  );
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  &__descript {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 300;
+    span {
+      font-weight: 900;
+    }
+    @media screen and (max-width: 1250px) {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+    border-radius: 28px;
+    text-align: center;
+    padding: 15px;
+    margin-left: 45px;
+    cursor: pointer;
+
+    @media screen and (max-width: 850px) {
+      margin-left: 0px;
+    }
+  }
+
+  &__btn:hover {
+    background-color: $lightgrey;
+    a {
+      color: black;
+    }
+    color: black;
+  }
+
+  &__link {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: $blue;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.hireme {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: fixed;
+
+  &__close {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+  }
+
+  &__close::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: $blue;
+    transform: rotate(45deg);
+  }
+  &__close::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: $blue;
+    transform: rotate(135deg);
+  }
+
+  &__title {
+    padding: 50px 0;
+
+    h2 {
+      font-size: 50px;
+      line-height: 98px;
+      color: $blue;
+      text-align: center;
+    }
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    max-width: 517px;
+    width: 100%;
+    padding: 0 10px;
+
+    input {
+      margin-bottom: 10px;
+
+      height: 45px;
+      border-radius: 10px;
+      background-color: #fff;
+      border: 1px solid $lightgrey;
+      padding-left: 10px;
+    }
+  }
+
+  textarea {
+    background-color: #fff;
+    border: 1px solid $lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .hirme_btn {
+    margin: 40px auto;
+    width: 204px;
+    height: 55px;
+    border-radius: 27px;
+    background-image: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+  }
+
+  &.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    visibility: visible;
+    transition: all ease-in-out 0.4s;
+    z-index: 3;
+    background-color: black;
+  }
+}

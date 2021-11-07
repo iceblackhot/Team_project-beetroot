@@ -1,3 +1,29 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
 img {
   max-width: 100%;
+}
+
+.visible {
+  visibility: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 2000px;
+  padding: 0 15px;
+  margin: 0 auto;
 }

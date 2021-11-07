@@ -5,16 +5,371 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/fonts/icon/icon.css" />
     <link rel="stylesheet" href="src/css/normalize.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
-    <script src="src/js/main.js"></script>
+    <script src="src/js/header_hidden.js"></script>
+    <script src="src/js/header_burger.js"></script>
+    <script src="src/js/cookies.js"></script>
+    <script src="src/js/hire-me-welcome.js"></script>
+    <script src="src/js/footer_hireme.js"></script>
     <title>Our_project</title>
   </head>
   <body>
-    <main></main>
+    <div class="page">
+      <header id="content" class="hire-me evgeny">
+        <div class="container">
+          <div class="hire-me__holder">
+            <div id="hideMenu" class="hire-me__close close"></div>
+            <ul class="hire-me__nav">
+              <li class="hire-me__list">
+                <a class="hire-me__link" href="#about-me">About Me</a>
+              </li>
+              <li class="hire-me__list">
+                <a class="hire-me__link" href="#expert">Services</a>
+              </li>
+              <li class="hire-me__list">
+                <a class="hire-me__link" href="#latest-works">My Works</a>
+              </li>
+              <li class="hire-me__list">
+                <a class="hire-me__link" href="#clients">Clients</a>
+              </li>
+            </ul>
+            <ul class="socials-nav">
+              <li class="socials__list">
+                <a class="socials__link" href="#">
+                  <i class="fa fa-facebook fa-2x icons" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="socials__list">
+                <a class="socials__link" href="#">
+                  <i class="fa fa-twitter fa-2x icons" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="socials__list">
+                <a class="socials__link" href="#">
+                  <i class="fa fa-dribbble fa-2x icons" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="socials__list">
+                <a class="socials__link" href="#">
+                  <i class="fa fa-behance fa-2x icons" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="hire-me__lang">
+              <li class="hire-me-lang__list">
+                <a class="hire-me-lang__link" href="#">ENG</a>
+              </li>
+              <li class="hire-me-lang__list">
+                <a class="hire-me-lang__link" href="#"
+                  ><img src="src/img/en.png" alt="lang img"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="button__holder">
+          <button id="showHideContent" class="burger-btn js-nav-opener">
+            <span></span>
+          </button>
+        </div>
+        <section class="vasylkov-welcome">
+          <div class="container">
+            <div class="welcome">
+              <div class="welcome__ball"></div>
+              <div class="welcome__title-holder">
+                <h1>free portfolio PSD template FOR GRAPHIC designerS</h1>
+              </div>
+              <div class="welcome__text-holder">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud
+                </p>
+              </div>
+              <div class="welcome__btn-holder">
+                <button class="welcome__btn-holder_btn">Hire me</button>
+              </div>
+              <div class="welcome__scroll-holder">
+                <a class="welcome__scroll-holder" href="#about-me"
+                  ><i class="icon-arrow"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="vasylkov-about-me" id="about-me">
+          <div class="container">
+            <div class="about-me">
+              <div class="about-me__title-holder">
+                <h2>About Me</h2>
+              </div>
+              <div class="about-me__text-holder">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="vasylkov-expert" id="expert">
+          <div class="container">
+            <div class="expert-in">
+              <div class="expert-in__title-holder">
+                <h2>Expert In</h2>
+              </div>
+              <ul class="expert-in__list">
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-mobile"></i>
+                    </div>
+                    <div class="expert-in__block-title">
+                      <h3>MOBILE APP DESIGN</h3>
+                    </div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-design"></i>
+                    </div>
+                    <div class="expert-in__block-title">
+                      <h3>WEB DESIGN</h3>
+                    </div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-development"></i>
+                    </div>
+                    <div class="expert-in__block-title">
+                      <h3>WEB DEVELOPMENT</h3>
+                    </div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-product"></i>
+                    </div>
+                    <div class="expert-in__block-title">
+                      <h3>PRODUCT DESIGN</h3>
+                    </div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-uxui"></i>
+                    </div>
+                    <div class="expert-in__block-title"><h3>UX & UI</h3></div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="expert-in__item">
+                  <a href="#" class="expert-in__link">
+                    <div class="expert-in__icon-holder">
+                      <i class="icon-animation"></i>
+                    </div>
+                    <div class="expert-in__block-title">
+                      <h3>ANIMATIONS</h3>
+                    </div>
+                    <div class="expert-in__text-holder">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="lesyk-kateryna" id="latest-works">
+          <div class="container">
+            <div class="latest-works">
+              <div class="title-latest-works">
+                <h2>Latest Works</h2>
+              </div>
+              <div class="latest-works__box">
+                <a class="lates-works__link" href="#">
+                  <img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_101.png"
+                    alt="prostok"
+                  />
+                </a>
+                <a class="lates-works__link" href="#"
+                  ><img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_kopia_102.png"
+                    alt="prostok"
+                /></a>
+                <a class="lates-works__link" href="#"
+                  ><img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_kopia_2_103.png"
+                    alt="prostok"
+                /></a>
+                <a class="lates-works__link" href="#"
+                  ><img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_kopia_3_104.png"
+                    alt="prostok"
+                /></a>
+                <a class="lates-works__link" href="#"
+                  ><img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_kopia_3_105.png"
+                    alt="prostok"
+                /></a>
+                <a class="lates-works__link" href="#"
+                  ><img
+                    class="latest-works__img"
+                    src="./src/img/prostok_t_zaokr_glony_2_kopia_3_106.png"
+                    alt="prostok"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="maksym" id="clients">
+          <div class="container">
+            <div class="clients__holder">
+              <div class="clients">
+                <h2>Clients</h2>
+              </div>
+              <div class="list">
+                <ul class="list__item">
+                  <li class="list__image-th">
+                    <img
+                      src="src/img/msft_logo_png_211.png"
+                      alt="msft"
+                      width="100px"
+                    />
+                  </li>
+                  <li class="list__image-th">
+                    <img
+                      src="src/img/samsung_logo_2015_nobg_213.png"
+                      alt="samsung"
+                      width="100px"
+                    />
+                  </li>
+                  <li class="list__image-th">
+                    <img
+                      src="src/img/ibm_logo_214.png"
+                      alt="ibm"
+                      width="90px"
+                    />
+                  </li>
+                  <li class="list__image-th">
+                    <img
+                      src="src/img/google_2015_logo.svg_223.png"
+                      alt="google"
+                      width="90px"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="vasylkov-popup">
+          <div class="pop-up-cookies">
+            <div class="pop-up-cookies__text-holder">
+              <p>This site uses cookies, so that my service can work better.</p>
+            </div>
+            <div class="pop-up-cookies__button-holder">
+              <button class="pop-up-cookies__btn">Accept</button>
+            </div>
+          </div>
+        </section>
+        <section alexander>
+          <div class="hireme">
+            <div class="hireme__close">
+              <span></span>
+            </div>
+            <div class="hireme__title">
+              <h2>Hire Me</h2>
+            </div>
+            <form class="hireme__input">
+              <input class="name" type="text" placeholder="Your Name" />
+              <input class="email" type="text" placeholder="Your E-Mail" />
+              <textarea
+                cols="30"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="hirme_btn">SEND MESSAGE</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer alexander">
+        <div class="footer__descript">
+          <p>Need a graphic designer? <span>Ready to work!</span></p>
+        </div>
+        <div class="footer__btn">
+          <a class="footer__link" href="#">hire me</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
