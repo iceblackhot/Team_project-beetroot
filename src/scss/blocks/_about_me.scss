@@ -1,0 +1,26 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title-holder {
+    font-size: $titleh2;
+    color: $blue;
+    padding-top: 99px;
+    margin-bottom: 70px;
+    text-align: center;
+
+    h2 {
+      font-weight: 300;
+    }
+  }
+
+  &__text-holder {
+    color: $lightgrey;
+    line-height: 35px;
+    max-width: 1080px;
+    text-align: center;
+    margin-bottom: 115px;
+  }
+}

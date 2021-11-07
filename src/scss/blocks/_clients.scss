@@ -1,0 +1,49 @@
+.maksym {
+  background-color: $lightBlue;
+}
+
+.clients__holder {
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list {
+  width: 100%;
+  padding-bottom: 80px;
+
+  &__image-th {
+    padding: 20px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.clients {
+  font-size: $titleh2;
+  color: $blue;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+// @media screen and (max-width: 768px ) {
+//     .list__item{
+//        width: 50%;
+//     }
+// }
+
+// @media screen and (max-width: 768px ) {
+//     .list__item{
+//        width: 100%;
+//     }
+// }

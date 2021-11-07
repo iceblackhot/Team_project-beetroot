@@ -1,0 +1,44 @@
+.lesyk_kateryna {
+  max-width: 1250px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.latest-works__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.title-latest-works {
+  font-size: $titleh2;
+  font-style: normal;
+  font-family: "latolight";
+  font-weight: 300;
+  color: $blue;
+  text-align: center;
+  padding-bottom: 103px;
+  padding-top: 90px;
+}
+
+.lates-works__link {
+  display: block;
+  margin: 0 0px 52px 0;
+}
+
+.lates-works__link:hover {
+  opacity: 0.8;
+}
+
+.latest-works__img {
+  border: 4px solid transparent;
+}
+
+img:hover {
+  border: 4px solid #c97000;
+  border-radius: 10px;
+}
